@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Fetcher</title>
+        <style>
+            body {
+                font-family: Verdana, sans-serif;
+                text-align: center;
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Weather Fetcher by name</h1>
+        <input type="text" id="city" placeholder="Enter city/town name">
+        <button onclick="getWeatherData()">Get Weather</button>
+        <p id="weather-info-sc"></p>
+        <script src="wthr-api.js"></script>
+    </body>
+</html>
